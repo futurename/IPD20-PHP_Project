@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3333/carrental</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="SQL Server" uuid="1c47cbc7-94d7-4594-9048-a26e35903f16">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://sql2.prokopski.com</jdbc-url>
+    </data-source>
   </component>
 </project>
